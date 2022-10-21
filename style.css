@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main-box {
+    background-color: rgb(243, 173, 42);
+    padding-left: 40px;
+}
+
+#main-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.divider {
+    width: 204px;
+    height: 2px;
+    background-color: rgb(227, 231, 235);
+    margin-bottom: 25px;
+}
+
+.badge h6 {
+    width: 80px;
+    color: black;
+    background-color: rgb(243, 173, 42);
+    position: absolute;
+    top: 8px;
+    left: -19px;
+    transform: rotate(-44deg);
+    padding: 2px;
+}
+
+.inner-box {
+    background-color: aliceblue;
+    width: 208px;
+    margin-bottom: 12px;
+}
+
+p {
+    text-transform: capitalize;
+    font-size: 14px;
+    text-align: left;
+    padding: 0px 24px;
+}
+
+#first-col {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    height: 100vh;
+    width: 88%;
+}
+
+#second-col {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    height: 100vh;
+    background-color: white;
+    width: 88%;
+}
+
+#third-col {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    height: 100vh;
+    width: 88%;
+}
+
+#fourth-col {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    height: 100vh;
+    background-color: white;
+    width: 88%;
+}
+
+#btn1 {
+    color: rgb(61, 61, 223);
+    background: transparent;
+    border: 0;
+    margin-top: 80px;
+}
+#btn2 {
+    color: rgb(61, 61, 223);
+    background: transparent;
+    border: 0;
+    margin-top: 106px;
+}
+#btn3 {
+    color: rgb(61, 61, 223);
+    background: transparent;
+    border: 0;
+    margin-top: 80px;
+}
+#btn4 {
+    color: rgb(61, 61, 223);
+    background: transparent;
+    border: 0;
+    margin-top: 118px;
+}
+
+@media only screen and (max-width:768px) {
+    p {
+        text-align: justify;
+    }
+
+    #btn1 {
+        margin-top: 25px;
+    }
+    #btn2 {
+        margin-top: 45px;
+    }
+    #btn3 {
+        margin-top: 45px;
+    }
+    #btn4 {
+        margin-top: 45px;
+    }
+}
+
+
+
+@media only screen and (max-width:1030px) {
+    #main-box {
+        padding: 0;
+    }
+
+    #first-col {
+        width: 100%;
+        height: 80vh;
+    }
+
+    #second-col {
+        width: 100%;
+        height: 80vh;
+    }
+
+    #third-col {
+        width: 100%;
+        height: 80vh;
+    }
+
+    #fourth-col {
+        width: 100%;
+        height: 80vh;
+    }
+}
